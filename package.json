@@ -8,7 +8,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:vite-plugin-sd": "pnpm --filter vite-plugin-sd dev",
+    "build:vite-plugin-sd": "pnpm --filter vite-plugin-sd build"
   },
   "packageManager": "pnpm@10.7.0",
   "version": ""
